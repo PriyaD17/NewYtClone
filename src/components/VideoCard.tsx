@@ -1,5 +1,5 @@
 export function VideoCard(props: any){
-   return <div>
+   return <div className="p-3">
         <img className="rounded-xl"src="/sddefault.jpg" alt="" />
         <div className="font-black text-2xl pt-4">
            {props.title}

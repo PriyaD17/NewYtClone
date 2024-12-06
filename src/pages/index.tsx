@@ -1,16 +1,11 @@
 import {VideoCard} from "@/components/VideoCard"
-
+import {VideoGrid} from "@/components/VideoGrid"
+import { AppBar } from "@/components/appbar";
 export default function Home() {
   return (
     <div>
-      <VideoCard 
-      title={"this poor girl"}
-      ctmb= {"/cp.jpg"}
-      author={"Gangsta Perspectives"}
-      views={"10k"}
-      time={"1 hour"}
-
-      > </VideoCard>
+      <AppBar/>
+     <VideoGrid/>
     </div>
   );
 }
